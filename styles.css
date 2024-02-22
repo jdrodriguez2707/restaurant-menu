@@ -1,0 +1,16 @@
+.container {
+  border: 5px solid #0786f5;
+  background-color: #5db0f8ee;
+  display: grid;
+  grid-template-rows: 100px 200px;
+  grid-auto-columns: 150px;
+  grid-auto-flow: column;
+  /* row-gap: 15px;
+  column-gap: 20px; */
+  gap: 40px;
+}
+
+.item {
+  border: 5px solid #ea6262;
+  font-size: 80px;
+}
