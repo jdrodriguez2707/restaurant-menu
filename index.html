@@ -3,22 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS grid</title>
+    <title>CSS grid project</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
-      <div class="item">4</div>
-    </div>
-    <div class="container-2">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
-      <div class="item">4</div>
-    </div>
+    <main>
+      <div class="main-container">
+        <section class="banner">
+          <div class="banner__text-container">
+            <h1 class="banner__title">Check The Best Food</h1>
+            <p class="banner__paragraph">
+              There is a wide variety of delicious foods that you can try and
+              delight your palate. You will like it so much that you won't want
+              to go anywhere else.
+            </p>
+            <button class="banner__button">Book A Table</button>
+          </div>
+          <figure>
+            <img
+              class="banner__image"
+              src="./assets/images/hero.png"
+              alt="pasta"
+            />
+          </figure>
+        </section>
+        <section class="services">
+          <h2 class="title">Our Services</h2>
+          <div class="dishes-container">
+            <figure class="dishes-container__dish-1">
+              <img
+                class="dishes-container__dish-image dishes-container__dish-image--first"
+                src="./assets/images/video.png"
+                alt="video"
+              />
+            </figure>
+            <figure>
+              <img
+                class="dishes-container__dish-image dishes-container__dish-image--second"
+                src="./assets/images/dish1.png"
+                alt="dish1"
+              />
+            </figure>
+            <figure>
+              <img
+                class="dishes-container__dish-image dishes-container__dish-image--third"
+                src="./assets/images/dish2.png"
+                alt="dish2"
+              />
+            </figure>
+            <figure>
+              <img
+                class="dishes-container__dish-image dishes-container__dish-image--fourth"
+                src="./assets/images/dish3.png"
+                alt="dish3"
+              />
+            </figure>
+            <figure>
+              <img
+                class="dishes-container__dish-image dishes-container__dish-image--fifth"
+                src="./assets/images/dish4.png"
+                alt="dish4"
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="home-menu">
+          <h3 class="title title--home-menu">Home Menu</h3>
+          <div class="menu-container">
+            <figure class="menu-container__dish-container">
+              <img
+                class="menu-container__first-plate"
+                src="./assets/images/plate1.png"
+                alt="plate1"
+                loading="lazy"
+              />
+            </figure>
+            <figure
+              class="menu-container__dish-container menu-container__dish-container--orange-heart"
+            >
+              <img
+                class="menu-container__second-plate"
+                src="./assets/images/plate2.png"
+                alt="plate2"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="menu-container__dish-container">
+              <img
+                class="menu-container__third-plate"
+                src="./assets/images/plate3.png"
+                alt="plate3"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="menu-container__dish-container">
+              <img
+                class="menu-container__fourth-plate"
+                src="./assets/images/plate4.png"
+                alt="plate4"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="menu-container__dish-container">
+              <img
+                class="menu-container__fifth-plate"
+                src="./assets/images/plate5.png"
+                alt="plate5"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </section>
+      </div>
+    </main>
   </body>
 </html>
