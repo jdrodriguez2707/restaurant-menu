@@ -14,9 +14,9 @@ body {
 
 .banner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   place-items: center;
-  gap: 40px;
+  gap: 100px;
   margin-bottom: 40px;
 }
 
@@ -30,7 +30,7 @@ body {
   font-size: 5rem;
   font-weight: bold;
   color: #022430;
-  width: 250px;
+  /* width: 250px; */
 }
 
 .banner__paragraph {
@@ -155,7 +155,23 @@ body {
   aspect-ratio: 499 / 500;
 }
 
+@media (width < 720px) {
+  .banner__text-container {
+    text-align: center;
+  }
+
+  .banner__button {
+    align-self: center;
+  }
+}
+
 @media (width <= 550px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .dishes-container {
     grid-template-columns: 1fr;
     column-gap: 0;
