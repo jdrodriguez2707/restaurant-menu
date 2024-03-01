@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  padding: 20px 0;
 }
 
 .banner__title {
@@ -46,11 +47,16 @@ body {
   color: #fff;
   width: 180px;
   background-color: #f98a47;
+  cursor: pointer;
 }
 
 .banner__icon-container {
   display: flex;
   gap: 20px;
+}
+
+.fa-brands {
+  cursor: pointer;
 }
 
 .banner__image {
@@ -160,6 +166,10 @@ body {
 }
 
 @media (width < 720px) {
+  .banner {
+    gap: 20px;
+  }
+
   .banner__text-container {
     align-items: center;
   }
@@ -174,6 +184,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .banner {
+    border-bottom: initial;
   }
 
   .dishes-container {
